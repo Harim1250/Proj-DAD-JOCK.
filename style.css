@@ -1,0 +1,55 @@
+
+
+body{
+    background: linear-gradient(to left bottom,lightblue,lightyellow ,lightblue);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, .5);
+    padding: 20px;
+    box-shadow:0 6px 10px rgb(0, 0, 0);
+    width: 80%; 
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.heading{
+   font-size: 35px;
+   font-weight: 200;
+   color: rgb(50, 169, 209);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-shadow: 5px 5px 3px rgb(135, 200, 219);
+   letter-spacing: 1px;
+}
+
+.joke{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: lightcoral;
+    padding: 30px;
+}
+
+.btn{
+    width: 20%;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 500;
+    border-radius:  solid blue 5px;
+    color: skyblue;
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.btn:hover{
+ background-color: rgba(255, 255, 255, .5);
+ box-shadow: 0 4px 4px rgba(0,0,0,.3);
+ transition: all ease;
+}
